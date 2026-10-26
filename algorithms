@@ -1,0 +1,185 @@
+1.EMPLOYEE
+
+Algorithm :-
+
+  Step 1 :- Start the Program.
+  Step 2 :- Create a class Employee.
+  Step 3 :- Declare variable empno, empname, and salary.
+  Step 4 :- Define constructor to initialize the employee details.
+  Step 5 :- Create set method to set the empno and empname.
+  Step 6 :- Create get method to retrieve empno, empname, and salary.
+  Step 7 :- Create display method, to display the details of empno,       empname, and salary.
+ Step 8 :- In the main class Empord import the employee class from the Employee Package.
+  Step 9 :- Assign the employee details.
+  Step 10 :- Create an employee object using the Constructor.
+  Step 11 :- Call salary() . display() method.
+  Step 12 :- Stop the program.
+
+             2. polymorphism,Inheritance of inner class
+
+Step 1  :- start the program
+Step 2  :- create package named Drawing
+Step 3  :- create parent class shape with draw() method
+Step 4  :- create child class circle,rectangle and triangle by extending shape
+Step 5  :- override  the draw() method in each child class
+Step 6  :- create a inner class named inner
+Step 7  :- define a method draw  shape() inside inner class
+Step 8  :- pass a shape object to the drawshape() method
+Step 9  :- call the shape draw() method
+Step 10 :- method is  executed depending on the object  passed this demonstrates polymorphism
+Step 11 :- display the corresponding output Step 12 :- stop the program 
+                          3. Custom shapes
+
+Step 1  :-  start the program 
+Step 2  :- create  a frame that  implement action listener
+Step 3  :- create a menu for shape and color
+Step 4  :- add circle rectangle oval line to the  shape menu
+Step 5  :-  add red blue green and yellow to the color menu 
+Step 6  :- add action listener  to all menu items 
+Step 7  :- import  awt package and event 
+Step 8  :- when the  shape is selected,store the  selected shape
+Step 9  :- when color selected  and stored call repaint()
+Step 10 :- paint method to set  selected  color 
+Step 11 :- draw the selected  shape
+Step 12 :- display the result
+Step 13 :- stop the program
+
+                             4. Mouse event 
+
+Step 1  :-  start the program 
+Step 2  :- import the built in package in packages like awt and event
+Step 3  :- create a class  mouse extends frame and implements mouselistener()
+Step 4  :-  create a label containing mouse  event
+Step 5  :- set the position  and size of the label to the frame 
+Step 6  :- set the frame  size 400 x 300 set the layout to null and make to frame visible
+Step 7  :- display mouse event methods mouse clicked() mouse entered(),pressed(),released() and exited() 
+Step 8  :-  In main method create a object of the mouse class
+Step 9  :- The program waits for mouse action and changes the label containing the event 
+Step 10  :- display the result
+Step 11 :- stop the  program
+
+                       5. Student Information
+
+Step1: start the program 
+Step2 : import the required classes if the file,filewriter and Io Exception 
+Step3 : create a file object named student.txt
+Step4 : check wheather the file is exit or not 
+Step5 : create a file writer object for the file 
+Step6 : write the student details into the file 
+Step7 : Name,education,rollnumber and age 
+Step8 : close the file writer
+Step9 : handle any exception using the catch block 
+Step10 : stop the program
+
+                        6. Tree viewer
+
+Step1: start the program 
+Step2: import the required java swing package
+Step3: create a Jtree to display the window
+Step4: create treenode using default mutable tree node
+Step5: create a root node
+Step6: add child node and sub child node to the root node
+Step7:create a Jtree node using the  root node
+Step8: add Jtree to the frame using Jscroll panel 
+Step9: set the frame size and visibility and display it
+Step10: stop the program
+
+
+                             7. Bad words
+
+Step1: start the program
+Step2:import the  required Javapackage
+Step3: create a set containing the prohibited words
+Step4: specify the path of the input text  field
+Step5:open the file using bufferReader and Filereader
+Step6:Read the file line by  line
+Step7:check weather any  prohibited words is  present
+Step8: if a prohibited word is found set the frag to true and  stop checking
+Step9: if prohibited words are found display the access denied.file contains prohibited words reopen file
+Step10:display the result
+Step11:Then,prohibited words is found Step12: stop the  program
+
+                      
+                           8. Temperature converter
+
+Step1: start the program
+Step2: create a Jframe for GUI window
+Step3: create two text field for  entering celsius and feherenit values
+Step4: create two buttons 
+1.celsius  to fahrenheit
+2.Fahrenheit to celsius
+Step5: Add action listener to both buttons
+Step6: when celsius to fahrenheit is clicked
+Step7:read the celsius  value
+Apply the formulae : f = (cx9/5)+32
+Apply the celsius  value
+Apply the fahrenheit value : c = (f - 32) x 5/9
+Display the fahrenheit value
+
+Step8:display  the  converted temperature in an corresponding text field
+Step9: view the result change celsius to fahrenheit
+Step10: stop  the program
+
+
+           9.student information in text  field
+
+Step1:start the program
+Step2: import the required javafx  package
+Step3:create  javafx application
+Step4: create table for name,registerno,cause email
+Step5: create a textfield to enter the student details
+Step6: create a  submit button
+Step7: arrange the  control using grid panel add an action event to the submit button
+Step8:display the details
+Step9:create the scene and set it on the stage 
+Step10:display student details on the webpage
+Step11:view  the student information Step12: stop the program
+
+
+
+
+                            10.Image viewer
+
+Step1: start the program
+Step2: import  the Jframe named image viewer
+Step3: create a Jbalel to display the image 
+Step4: create  Jfilechooser to select an image file
+Step5:open  the file chooser
+Step6: check wheather the user selected a file
+Step7: get  the selected file path
+Step8:create  an image icon to the Jlabel
+Step9:add the label to the frame 
+Step10: set  the image icon to  the Jlabel
+Step11:display the image Step12: stop the  program
+
+                         11.2D shapes
+
+Step1:start  the  program 
+Step2: import the required java swing and awt package
+Step3:create a class shape drawing that extendsJpanel
+Step4:over ride the paint component(Graphics g method)
+Step5:use drawline()to draw the line
+Step6:use drawrect()to draw the rectangle
+Step7:create a Jframe window and add the panel to it 
+Step8:set the size of the frame and  then make it visible
+Step9: stop the program
+
+
+
+                   12.transformation
+
+Step1: start the program
+Step2: import the packages
+Step3: create  a  transformation shape class extending Jpanel and implementing action listener 
+Step4: initialize the main Jframe and create 3 buttons 
+1.transformation 2.scale 3.rotate
+Step5: add buttons to the panel at the bottom
+Step6: using paint component()draw original shape
+Step7: translate the shapes
+Step8: scale  the shapes
+Step9: rotate the shapes
+Step10: in action  performed()method to  update choice,then call repaint()
+Step11: choice variable based of which button is clicked
+Step12: run the  application
+Step13: stop the program
+
